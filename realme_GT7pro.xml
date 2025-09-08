@@ -47,5 +47,5 @@
   <project remote="clo-la" name="kernelplatform/prebuilts-master/clang/host/linux-x86" path="kernel_platform/prebuilts/clang/host/linux-x86" revision="b099698c583b8361ca771f3cc8d6af6f729f39b3" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel" groups="ddk"/>
   <project remote="clo-la" name="kernelplatform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="e0de596ee4e1128b36fd2be9ec04422360bf404f" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel" groups="ddk">
     <linkfile dest="kernel_platform/build/build-tools/sysroot" src="sysroot"/>
-  </project>de
+  </project>
 </manifest>

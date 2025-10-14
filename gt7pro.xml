@@ -3,13 +3,13 @@
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
   <remote fetch="https://github.com/realme-kernel-opensource" name="origin"/>
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
-  <project remote="origin" name="realme_GT7pro-AndroidV-common-source" path="kernel_platform/common" revision="master">
+  <project remote="origin" name="realme_GT7pro-AndroidV-common-source" path="kernel_platform/common" revision="kernel-6.6.89">
     <linkfile dest="kernel_platform/.source_date_epoch_dir" src="."/>
   </project>
-  <project remote="origin" name="realme_GT7pro-AndroidV-kernel-source" path="kernel_platform/msm-kernel" revision="master">
+  <project remote="origin" name="realme_GT7pro-AndroidV-kernel-source" path="kernel_platform/msm-kernel" revision="kernel-6.6.89">
     <linkfile dest="kernel_platform/build_with_bazel.py" src="build_with_bazel.py"/>
   </project>
-  <project remote="origin" name="realme_GT7pro-AndroidV-vendor-source" path="./" revision="master"/>
+  <project remote="origin" name="realme_GT7pro-AndroidV-vendor-source" path="./" revision="kernel-6.6.89"/>
   <project remote="clo-la" name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" revision="434f141b6d22a773a163fa9c707b19b4d254d989" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel" groups="ddk">
     <linkfile dest="kernel_platform/build/prebuilts/kernel-build-tools" src="."/>
   </project>
